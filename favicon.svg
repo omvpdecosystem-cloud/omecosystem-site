@@ -1,0 +1,9 @@
+<!-- GENERATED from ID-01 constants (T 100,160 · ratio 1.175 · Δry 15) with ID-03 mark fills.
+     Recolor, never redraw — regenerate via src/governance/onion.ts. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 170">
+  <ellipse cx="100" cy="85"  rx="88.13" ry="75" fill="#9CC9E4" stroke="#123A56" stroke-width="6"/>
+  <ellipse cx="100" cy="100" rx="70.5"  ry="60" fill="#FBFDFE" stroke="#123A56" stroke-width="6"/>
+  <ellipse cx="100" cy="115" rx="52.88" ry="45" fill="#64A7CE" stroke="#123A56" stroke-width="6"/>
+  <ellipse cx="100" cy="130" rx="35.25" ry="30" fill="#FBFDFE" stroke="#123A56" stroke-width="6"/>
+  <ellipse cx="100" cy="145" rx="17.63" ry="15" fill="#14567E" stroke="#123A56" stroke-width="6"/>
+</svg>
