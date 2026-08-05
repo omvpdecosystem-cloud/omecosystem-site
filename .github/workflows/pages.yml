@@ -1,0 +1,30 @@
+name: Serve the published site
+
+# This repository holds the generated OM Ecosystem website and nothing else.
+# It is written by the release pipeline in the private source repository, which
+# pushes a built, gated artifact here on a release tag. Nothing is built here.
+#
+# Pages is configured to publish from a workflow, so a push alone does not serve
+# the files — this is the step that does.
+on:
+  push: { branches: [main] }
+  workflow_dispatch:
+
+permissions: { contents: read, pages: write, id-token: write }
+concurrency: { group: pages, cancel-in-progress: true }
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      # Upload the repository as-is. The tree is already the site: the release
+      # pipeline ran every gate — architecture, disclosure, deploy config — before
+      # anything reached this repository.
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: . }
+      - id: deployment
+        uses: actions/deploy-pages@v4
