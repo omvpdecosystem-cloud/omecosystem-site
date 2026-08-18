@@ -1,8 +1,8 @@
 {
-  "is_release": true,
-  "ref": "v6.1.4",
-  "ref_type": "tag",
-  "release": "v6.1.4",
+  "is_release": false,
+  "ref": "main",
+  "ref_type": "branch",
+  "release": null,
   "schema": 1,
-  "source_commit": "14dd2a03e2c1138fcdaeaf5b6e7a1b6204a49bf8"
+  "source_commit": "d6886a08479066c98fda860c12be203dea8dfc2e"
 }
