@@ -1,0 +1,1 @@
+import{r as e,f as o}from"./surfaces.Cbxt_3FI.js";import"./AppShell.astro_astro_type_script_index_0_lang.DKUr6Yml.js";import"./hoisted.BaTd6NUA.js";const r=document.getElementById("om-surface");r&&e()&&o(r);
