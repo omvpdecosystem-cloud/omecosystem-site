@@ -1,1 +1,0 @@
-import{r,a as n,b as m}from"./surfaces.BUcSy3KB.js";import"./AppShell.astro_astro_type_script_index_0_lang.v-g0vSXr.js";import"./hoisted.PHaYJqdr.js";const i=document.getElementById("om-surface");if(i&&r()){n(i);const e=document.getElementById("om-inquiries");e&&m(e)}
